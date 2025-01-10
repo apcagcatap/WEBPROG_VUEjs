@@ -10,14 +10,15 @@
 }
 
 header {
-    background-color: #f0f0f0;
-    padding: 20px;
+    background-color: black;
+    padding-left: 20px;
     position: relative;
     z-index: 2; /* Ensure header is on top */
+    
 }
 
 footer {
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 20px;
 }
 
@@ -36,4 +37,8 @@ main {
     background-color: dodgerblue;
     padding: 10px;
     flex: 40%;
+}
+
+body {
+  background-color: black;
 }
