@@ -1,5 +1,6 @@
 h1{
-	color: white;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
@@ -7,14 +8,14 @@ h2 {
 }
 
 .glowing-text {
-    font-size: 4rem;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     color:white; 
     text-shadow: 
         0 0 5px #ce5efe,    /* First layer of glow */
         0 0 10px #ce5efe,   /* Second layer for stronger glow */
-        0 20px #ce5efe,   /* Larger spread for outer glow */
+        0 2px #ce5efe,   /* Larger spread for outer glow */
         0 0 40px #ce5efe,   /* Additional color for depth */
         0 0 80px #ce5efe;   /* Final large glow */
 }
