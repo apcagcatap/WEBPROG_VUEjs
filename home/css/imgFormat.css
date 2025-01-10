@@ -1,13 +1,20 @@
-.circle {
-          width: 70%; /* Set the desired width */
-          height: 300px; /* Set the desired height */
-          border-radius: 50%; 
-          overflow: hidden; 
-          display: inline-block; 
-        }
+.custom-shape-divider-top-1736517821 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+}
 
-.circle img {
-          width: 100%; 
-          height: 100%; 
-          object-fit: cover; 
-        }
+.custom-shape-divider-top-1736517821 svg {
+    position: relative;
+    display: block;
+    width: calc(128% + 1.3px);
+    height: 285px;
+}
+
+.custom-shape-divider-top-1736517821 .shape-fill {
+    fill: #000000;
+}
