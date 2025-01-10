@@ -34,9 +34,9 @@ main {
 
 .text {
             font-size: 30px; 
-            color: white;
+            color: #ce5efe;
             letter-spacing: 5px; 
-            font-family: monospace; 
+            font-family: 'Josefin Sans', sans-serif; 
             border-right: 5px solid;
             width: 100%; 
             white-space: 
