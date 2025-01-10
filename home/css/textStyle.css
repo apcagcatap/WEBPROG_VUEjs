@@ -4,16 +4,19 @@ h1{
    	font-family: 'Josefin Sans', sans-serif;
 }
 
+.purple, .white {
+    display: inline; /* Ensures both classes are displayed on the same line */
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0; /* Removes default spacing */
+}
+
 .purple {
-	font-size: 50px;
-	color: #ce5efe;
-	font-family: 'Josefin Sans', sans-serif;
+    color: #ce5efe;
 }
 
 .white {
-	font-size: 50px;
-	color: white;
-	font-family: 'Josefin Sans', sans-serif;
+    color: white;
 }
 
 .glowing-text {
