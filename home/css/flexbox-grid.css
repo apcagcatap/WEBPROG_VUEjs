@@ -25,7 +25,7 @@ footer {
 main {
     display: flex;
     flex-direction: row;
-    background-image: url('images/5376560_2816628.jpg');
+    background-image: url('https://img.freepik.com/free-vector/gradient-sunrise-starry-night-background_23-2148273605.jpg?t=st=1736522481~exp=1736526081~hmac=e4baefae79406dd44ede8a65cde1bb9035eee941a1c0dfd64d0de8acc98ea143&w=1060');
     background-size: cover; 
     background-position: center; 
 }
