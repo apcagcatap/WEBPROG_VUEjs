@@ -2,47 +2,73 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-        }
+}
 
-        .container {
+.container {
             display: grid;
             grid-template-rows: auto 1fr auto;
             height: 100vh;
-        }
+}
 
-        header {
+header {
             color: white;
             padding-left: 100px;
             padding-top: 50px;
             z-index: 2;
-        }
+}
 
-        main {
+main {
             display: flex;
             flex-direction: row;
-        }
+}
 
-        .main-content {
+.main-content {
             flex: 60%;
             padding-top: 100px;
             padding-left: 20px;
-        }
+}
 
-        .sidebar {
+.innercontainer {
+            display: inline-block;
+}
+
+.text {
+            font-size: 5em; 
+            letter-spacing: 10px; 
+            font-family: monospace; 
+            border-right: 5px solid;
+            width: 100%; 
+            white-space: 
+            nowrap; 
+            overflow: hidden;
+            animation:
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+            50% { border-color: transparent }
+}
+
+@keyframes typing {
+            from { width: 0 }
+}
+
+.sidebar {
             flex: 40%;
             color: white;
             padding: 10px;
-        }
+}
 
-        .new-container {
+.new-container {
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
             padding: 20px;
             text-align: center;
-        }
+}
 
-        body {
+body {
             background-image: url('https://img.freepik.com/free-vector/watercolor-galaxy-background_23-2149238134.jpg?t=st=1736524026~exp=1736527626~hmac=f88510f9b9be4a6f9756ff4701d8933707cd8fdbc5ebfed9e26bcfd46e0539ef&w=1060'); 
             background-size: cover; 
             background-position: center;
-        }
+}
