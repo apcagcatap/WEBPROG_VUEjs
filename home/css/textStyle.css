@@ -31,3 +31,26 @@ h1{
         0 0 40px #ce5efe,   /* Additional color for depth */
         0 0 80px #ce5efe;   /* Final large glow */
 }
+
+.text {
+    font-size: 30px; 
+    color: #ce5efe;
+    letter-spacing: 5px; 
+    font-family: 'Josefin Sans', sans-serif; 
+    border-right: 5px solid;
+    padding-top: 20px;
+    width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden;
+    animation: typing 2s steps(30, end) infinite, cursor 0.2s step-end infinite alternate, fade 4s infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes cursor {
+    0% { border-color: transparent; }
+    100% { border-color: #ce5efe; }
+}
