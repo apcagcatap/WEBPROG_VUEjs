@@ -1,45 +1,48 @@
 * {
-  box-sizing: border-box;
-}
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-.container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-    position: relative;
-}
+        .container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            height: 100vh;
+        }
 
-header {
-    padding-left: 20px;
-    position: relative;
-    z-index: 2; /* Ensure header is on top */
-    
-}
+        header {
+            color: white;
+            padding-left: 100px;
+            padding-top: 50px;
+            z-index: 2;
+        }
 
-footer {
-    background-color: black;
-    padding: 20px;
-    margin-top: auto; /* Ensures footer stays at the bottom */
-}
+        main {
+            display: flex;
+            flex-direction: row;
+        }
 
-main {
-    display: flex;
-    flex-direction: row; 
-}
+        .main-content {
+            flex: 60%;
+            padding-top: 100px;
+            padding-left: 20px;
+        }
 
-.main-content {
-    padding: 10px;
-    flex: 60%;
-}
+        .sidebar {
+            flex: 40%;
+            color: white;
+            padding: 10px;
+        }
 
-.sidebar {
-    padding: 10px;
-    flex: 40%;
-}
+        .new-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-
-body {
-    background-image: url('https://img.freepik.com/free-vector/watercolor-galaxy-background_23-2149238134.jpg?t=st=1736524026~exp=1736527626~hmac=f88510f9b9be4a6f9756ff4701d8933707cd8fdbc5ebfed9e26bcfd46e0539ef&w=1060'); 
-    background-size: cover; 
-    background-position: center
-}
+        body {
+            background-image: url('https://img.freepik.com/free-vector/watercolor-galaxy-background_23-2149238134.jpg?t=st=1736524026~exp=1736527626~hmac=f88510f9b9be4a6f9756ff4701d8933707cd8fdbc5ebfed9e26bcfd46e0539ef&w=1060'); 
+            background-size: cover; 
+            background-position: center;
+        }
