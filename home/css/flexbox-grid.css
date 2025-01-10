@@ -33,8 +33,9 @@ main {
 }
 
 .text {
-            font-size: 5em; 
-            letter-spacing: 10px; 
+            font-size: 30px; 
+            color: white;
+            letter-spacing: 5px; 
             font-family: monospace; 
             border-right: 5px solid;
             width: 100%; 
