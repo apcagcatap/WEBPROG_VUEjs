@@ -11,10 +11,9 @@
 }
 
 header {
-            color: white;
-            padding-left: 100px;
-            padding-top: 50px;
-            z-index: 2;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            
 }
 
 main {
