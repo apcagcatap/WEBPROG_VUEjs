@@ -4,6 +4,11 @@ h1{
    	font-family: 'Josefin Sans', sans-serif;
 }
 
+h2{
+    color: white;
+  font-size: 40px;
+     font-family: 'Josefin Sans', sans-serif;
+}
 .purple, .white {
     display: inline; /* Ensures both classes are displayed on the same line */
     font-size: 50px;
