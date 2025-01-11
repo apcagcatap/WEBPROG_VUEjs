@@ -1,51 +1,51 @@
 * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-            display: grid;
-            grid-template-rows: auto 1fr auto;
-            height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
 }
 
 header {
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 main {
-            display: flex;
-            flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .main-content {
-            flex: 60%;
-            padding-top: 100px;
-            padding-left: 20px;
+    flex: 60%;
+    padding-top: 100px;
+    padding-left: 20px;
 }
 
 .innercontainer {
-            display: inline-block;
+    display: inline-block;
 }
 
 .sidebar {
-            flex: 40%;
-            color: white;
-            padding: 10px;
+    flex: 40%;
+    color: white;
+    padding: 10px;
 }
 
 .new-container {
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 20px;
-            text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 body {
-            background-image: url('https://img.freepik.com/free-vector/watercolor-galaxy-background_23-2149238134.jpg?t=st=1736524026~exp=1736527626~hmac=f88510f9b9be4a6f9756ff4701d8933707cd8fdbc5ebfed9e26bcfd46e0539ef&w=1060'); 
-            background-size: cover; 
-            background-position: center;
+    background-image: url('https://apcagcatap.github.io/WEBPROG_VUEjs/home/images/Screenshot%202025-01-12%20031936.png'); 
+    background-size: cover; 
+    background-position: center;
 }
