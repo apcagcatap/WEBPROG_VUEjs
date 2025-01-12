@@ -6,15 +6,18 @@
 
 .container {
     display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
+    grid-template-rows: auto auto auto;
 }
 
-header,footer {
+header {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    
 }
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 main {
     display: flex;
@@ -38,14 +41,32 @@ main {
 }
 
 .new-container {
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
-    text-align: center;
 }
 
-body {
-    background-image: url('https://apcagcatap.github.io/WEBPROG_VUEjs/home/images/bg.png'); 
-    background-size: cover; 
-    background-position: center;
+.main-content1 {
+    flex: 80%;
+    padding-top: 100px;
+    padding-left: 20px;
 }
+
+.innercontainer1 {
+    display: inline-block;
+}
+
+.sidebar1 {
+    flex: 20%;
+    color: white;
+    padding: 10px;
+}
+
+
+body {
+background-image: url('https://apcagcatap.github.io/WEBPROG_VUEjs/home/images/1.png'); 
+background-size: cover; 
+background-position: center;
+background-repeat: no-repeat;
+}
+
+

@@ -1,19 +1,15 @@
-h1{
-  	color: white;
-	font-size: 40px;
-   	font-family: 'Josefin Sans', sans-serif;
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-h2{
-    color: white;
-  font-size: 40px;
-     font-family: 'Josefin Sans', sans-serif;
-}
+
 .purple, .white {
-    display: inline; /* Ensures both classes are displayed on the same line */
+    display: inline;
     font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 0; /* Removes default spacing */
+    margin: 0;
 }
 
 .purple {
@@ -24,17 +20,65 @@ h2{
     color: white;
 }
 
+.purple1, .white1 {
+    display: inline;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.purple1 {
+    color: #ce5efe;
+}
+
+.white1 {
+    color: white;
+}
+
+ .purple2, .white2 {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.purple2 {
+    color: #ce5efe;
+}
+
+.white2 {
+    color: white;
+
+}
+
 .glowing-text {
     font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif; 
     font-weight: bold;
     text-align: center;
-    color:white; 
+    color: white; 
     text-shadow: 
-        0 0 5px #ce5efe,    /* First layer of glow */
-        0 0 10px #ce5efe,   /* Second layer for stronger glow */
-        0 2px #ce5efe,   /* Larger spread for outer glow */
-        0 0 40px #ce5efe,   /* Additional color for depth */
-        0 0 80px #ce5efe;   /* Final large glow */
+        0 0 5px #ce5efe,
+        0 0 10px #ce5efe,
+        0 2px #ce5efe,
+        0 0 40px #ce5efe,
+        0 0 80px #ce5efe;
+}
+
+.glowing-text {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: bold;
+    text-align: center;
+    color: white; 
+    text-shadow: 
+        0 0 5px #ce5efe,
+        0 0 10px #ce5efe,
+        0 2px #ce5efe,
+        0 0 40px #ce5efe,
+        0 0 80px #ce5efe;
 }
 
 .text {
@@ -43,7 +87,6 @@ h2{
     letter-spacing: 5px; 
     font-family: 'Josefin Sans', sans-serif; 
     border-right: 5px solid;
-    padding-top: 20px;
     width: 100%; 
     white-space: nowrap; 
     overflow: hidden;
